@@ -1,75 +1,89 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://notoh.dev`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Alex Pawelko',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Alex Pawelko | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Software Engineering student focused on Game Dev living in Waterloo, Canada.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@n0toh`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/Notoh`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm a Software Engineering student at the University of Waterloo who codes more than is healthy. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
+    My experiences include web development, game modding, and some standalone game development. Looking for Summer 2022 positions.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'badchessengine',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'The 432nd strongest chess-playing program in the world, supporting the Universal Chess Interface',
+        link: 'https://github.com/Notoh/badchessengine',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'RankedCvC',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Ranking system for various competitive Minecraft gamemodes used to play dozens of games every day',
+        link: 'https://github.com/notoh/elobot',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Squad Assault',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Counter Strike inspired gamemode within Minecraft, initially created for the Mineplex community',
+        link: 'https://github.com/podcrash/squad-assault',
+      },
+      {
+        name: 'Podcrash Play (formerly Podcrash+ and BetterMP)',
+        description:
+          'Third-party Minecraft client initially designed for competitive play, featuring statistics tracking, optimizations, ' +
+          'dozens of quality of life mods, a referee system, and support for almost every Minecraft setup.',
+        link: 'https://podcrash.com/play'
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Podcrash',
+        description: 'Software Development Lead, April 2021 - July 2021',
+        link: 'https://podcrash.com',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Podcrash',
+        description: 'Software Developer, September 2020 - April 2021',
+        link: 'https://podcrash.com',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Beyond Skyrim (volunteer)',
+        description: 'Implementor, July 2017 - August 2020',
+        link: 'https://beyondskyrim.org',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Languages',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Java, C, C#, C++, TypeScript, JavaScript, GLSL, HLSL, Kotlin, Scala, Groovy, Python, x86 Assembly',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Technologies',
+        description: 'Git, OpenGL, Gradle, Maven, Jenkins, Node.js, Express, Electron, Netty, Spring, JNI, Guice, Dagger2, JDBC, jOOQ, ' +
+          'SQL, MongoDB',
       },
       {
-        name: 'Other',
+        name: 'Other Skills',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Continuous Integration / Continuous Deployment, Agile, Docker',
+      },
+      {
+        name: 'Hobbies',
+        description:
+          'Chess, Game Modding, Guitar, Sound Engineering, Tabletop Gaming, Classic RPGs'
       },
     ],
   },
@@ -131,7 +145,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/icon.jpg`,
       },
     },
   ],
