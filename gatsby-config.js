@@ -73,7 +73,7 @@ module.exports = {
       {
         name: 'Technologies',
         description: 'Git, OpenGL, Gradle, Maven, Jenkins, Node.js, Express, Electron, Netty, Spring, JNI, Guice, Dagger2, JDBC, jOOQ, ' +
-          'SQL, MongoDB',
+          'SQL, MongoDB, Docker, Unity',
       },
       {
         name: 'Other Skills',
