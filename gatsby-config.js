@@ -41,7 +41,7 @@ module.exports = {
         name: 'Podcrash Play (formerly Podcrash+ and BetterMP)',
         description:
           'Third-party Minecraft client initially designed for competitive play, featuring statistics tracking, optimizations, ' +
-          'dozens of quality of life mods, a referee system, and support for almost every Minecraft setup.',
+          'dozens of quality of life mods, a referee system, and support for almost every Minecraft setup',
         link: 'https://podcrash.com/play'
       },
     ],
