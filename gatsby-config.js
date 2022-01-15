@@ -78,7 +78,7 @@ module.exports = {
       {
         name: 'Other Skills',
         description:
-          'Continuous Integration / Continuous Deployment, Agile, Docker',
+          'Continuous Integration / Continuous Deployment, Agile',
       },
       {
         name: 'Hobbies',
