@@ -16,7 +16,7 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
     // Content of the About Me section
     about: `I'm a Software Engineering student at the University of Waterloo who codes more than is healthy. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
-    My experiences include web development, game modding, and some standalone game development. Looking for Summer 2022 positions.`,
+    My experiences include web development, game modding, and some standalone game development. Currently working at Eden Industries.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
