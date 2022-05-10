@@ -48,6 +48,11 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Eden Industries',
+        description: 'Game Programmer, May 2022 - Present',
+        link: 'https://edenindustries.ca',
+      },
+      {
         name: 'Podcrash',
         description: 'Software Development Lead, April 2021 - July 2021',
         link: 'https://podcrash.com',
