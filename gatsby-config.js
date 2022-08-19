@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Alex Pawelko | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Software Engineering student focused on Game Dev living in Waterloo, Canada.`,
+    description: `Computer Science and Pure Mathematics student focused on Game Dev living in Waterloo, Canada.`,
     // Optional: Twitter account handle
     author: `@n0toh`,
     // Optional: Github account URL
@@ -15,8 +15,8 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
     // Content of the About Me section
-    about: `I'm a Software Engineering student at the University of Waterloo who codes more than is healthy. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
-    My experiences include web development, game modding, and some standalone game development. Currently working at Eden Industries.`,
+    about: `I'm a Computer Science and Pure Mathematics double major at the University of Waterloo who codes more than is healthy. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
+    My experiences include web development, game modding, and standalone game development. Currently working at Eden Industries.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
