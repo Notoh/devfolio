@@ -16,32 +16,32 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
     // Content of the About Me section
     about: `I'm a Computer Science and Pure Mathematics double major at the University of Waterloo who codes more than is healthy. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
-    My experiences include web development, game modding, and standalone game development. Currently working at Eden Industries.`,
+    My experiences include standalone game development, game modding, and backend web development. Currently looking for work. You can view my full resumé <a href="https://github.com/Notoh/devfolio/raw/master/Resume%20(GAMEDEV).pdf">here.</a>`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'badchessengine',
+        name: 'badchessengine & Hagnus Miemann',
         description:
-          'The 432nd strongest chess-playing program in the world, supporting the Universal Chess Interface',
+          'Two of the strongest chess playing programs in the world (ranked at ~200th and 432nd) in the world. badchessengine supports the Universal Chess Interface, whereas Hagnus Miemann features an interactive UI.'
         link: 'https://github.com/Notoh/badchessengine',
       },
       {
         name: 'RankedCvC',
         description:
-          'Ranking system for various competitive Minecraft gamemodes used to play dozens of games every day',
+          'Ranking system for various competitive Minecraft gamemodes used to play dozens of games every day.',
         link: 'https://github.com/notoh/elobot',
       },
       {
         name: 'Squad Assault',
         description:
-          'Counter Strike inspired gamemode within Minecraft, initially created for the Mineplex community',
+          'Counter Strike inspired gamemode within Minecraft, initially created for the Mineplex community.',
         link: 'https://github.com/podcrash/squad-assault',
       },
       {
         name: 'Podcrash Play (formerly Podcrash+ and BetterMP)',
         description:
           'Third-party Minecraft client initially designed for competitive play, featuring statistics tracking, optimizations, ' +
-          'dozens of quality of life mods, a referee system, and support for almost every Minecraft setup',
+          'dozens of quality of life mods, a referee system, and support for almost every Minecraft setup.',
         link: 'https://podcrash.com/play'
       },
     ],
@@ -49,7 +49,7 @@ module.exports = {
     experience: [
       {
         name: 'Eden Industries',
-        description: 'Game Programmer, May 2022 - Present',
+        description: 'Game Programmer, May 2022 - Aug. 2022 & Jan. 2023 - Apr. 2023',
         link: 'https://edenindustries.ca',
       },
       {
@@ -77,8 +77,8 @@ module.exports = {
       },
       {
         name: 'Technologies',
-        description: 'Git, OpenGL, Gradle, Maven, Jenkins, Node.js, Express, Electron, Netty, Spring, JNI, Guice, Dagger2, JDBC, jOOQ, ' +
-          'SQL, MongoDB, Docker, Unity',
+        description: 'Git, OpenGL, Unity, Unreal, Gradle, Maven, Jenkins, Node.js, Express, Electron, Netty, Spring, JNI, Guice, Dagger2, JDBC, jOOQ, ' +
+          'SQL, MongoDB, Docker',
       },
       {
         name: 'Other Skills',
@@ -88,7 +88,7 @@ module.exports = {
       {
         name: 'Hobbies',
         description:
-          'Chess, Game Modding, Guitar, Sound Engineering, Tabletop Gaming, Classic RPGs'
+          'Chess, Game Modding, Guitar, Sound Engineering, Tabletop Gaming, Classic RPGs, Speedrunning'
       },
     ],
   },
