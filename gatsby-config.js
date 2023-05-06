@@ -14,6 +14,7 @@ module.exports = {
     github: `https://github.com/Notoh`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
+	resume: `https://github.com/Notoh/devfolio/raw/master/Resume%20(GAMEDEV).pdf`,
     // Content of the About Me section
     about: `I'm a Computer Science and Pure Mathematics double major at the University of Waterloo who codes more than is healthy. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
     My experiences include standalone game development, game modding, and backend web development. Currently looking for work.`,
