@@ -22,13 +22,13 @@ module.exports = {
       {
         name: 'badchessengine & Hagnus Miemann',
         description:
-          'Two of the strongest chess playing programs in the world (ranked at ~200th and 432nd) in the world. badchessengine supports the Universal Chess Interface, whereas Hagnus Miemann features an interactive UI.'
-        link: 'https://github.com/Notoh/badchessengine',
+          'Two of the strongest chess playing programs in the world (ranked at ~200th and 432nd) in the world. badchessengine supports the Universal Chess Interface, whereas Hagnus Miemann features an interactive UI.',
+        link: 'https://linktr.ee/alexpawelkochess',
       },
       {
         name: 'RankedCvC',
         description:
-          'Ranking system for various competitive Minecraft gamemodes used to play dozens of games every day.',
+          'Ranking system (using Glicko2) for various competitive Minecraft gamemodes used to play dozens of games in multiple communities every day.',
         link: 'https://github.com/notoh/elobot',
       },
       {
@@ -41,7 +41,7 @@ module.exports = {
         name: 'Podcrash Play (formerly Podcrash+ and BetterMP)',
         description:
           'Third-party Minecraft client initially designed for competitive play, featuring statistics tracking, optimizations, ' +
-          'dozens of quality of life mods, a referee system, and support for almost every Minecraft setup.',
+          'dozens of quality of life mods, a referee system, and support for almost every Minecraft setup. Initially a personal project (known as BetterMP) until it was acquired by Podcrash after reaching over 250,000 downloads.',
         link: 'https://podcrash.com/play'
       },
     ],
@@ -64,7 +64,7 @@ module.exports = {
       },
       {
         name: 'Beyond Skyrim (volunteer)',
-        description: 'Implementor, July 2017 - August 2020',
+        description: 'Implementation Developer, July 2017 - August 2020',
         link: 'https://beyondskyrim.org',
       },
     ],
@@ -88,7 +88,7 @@ module.exports = {
       {
         name: 'Hobbies',
         description:
-          'Chess, Game Modding, Guitar, Sound Engineering, Tabletop Gaming, Classic RPGs, Speedrunning'
+          'Chess, Game Modding, Guitar, Sound Engineering, Tabletop Gaming, Classic RPGs, Speedrunning (current world record holder in Command & Conquer: Renegade)'
       },
     ],
   },
