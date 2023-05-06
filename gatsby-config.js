@@ -21,7 +21,7 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'badchessengine & Hagnus Miemann',
+        name: 'Hagnus Miemann & badchessengine',
         description:
           'Two of the strongest chess playing programs in the world (ranked at ~200th and 432nd) in the world. badchessengine supports the Universal Chess Interface, whereas Hagnus Miemann features an interactive UI.',
         link: 'https://linktr.ee/alexpawelkochess',
