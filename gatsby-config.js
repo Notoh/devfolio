@@ -16,7 +16,7 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
     // Content of the About Me section
     about: `I'm a Computer Science and Pure Mathematics double major at the University of Waterloo who codes more than is healthy. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
-    My experiences include standalone game development, game modding, and backend web development. Currently looking for work. You can view my full resumé <a href="https://github.com/Notoh/devfolio/raw/master/Resume%20(GAMEDEV).pdf">here.</a>`,
+    My experiences include standalone game development, game modding, and backend web development. Currently looking for work.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -73,7 +73,7 @@ module.exports = {
       {
         name: 'Languages',
         description:
-          'Java, C, C#, C++, TypeScript, JavaScript, GLSL, HLSL, Kotlin, Scala, Groovy, Python, x86 Assembly',
+          'Java, C, C#, C++, TypeScript, JavaScript, GLSL, HLSL, Kotlin, Scala, Groovy, Python, x86 Assembly, LaTeX',
       },
       {
         name: 'Technologies',
@@ -83,7 +83,7 @@ module.exports = {
       {
         name: 'Other Skills',
         description:
-          'Continuous Integration / Continuous Deployment, Agile',
+          'Continuous Integration / Continuous Deployment, Agile, Computational Mathematics',
       },
       {
         name: 'Hobbies',
