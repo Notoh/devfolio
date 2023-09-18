@@ -16,8 +16,8 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
 	resume: `https://github.com/Notoh/devfolio/raw/master/AlexPawelko-Resume.pdf`,
     // Content of the About Me section
-    about: `I'm a Computer Science and Pure Mathematics double major at the University of Waterloo who codes more than is healthy. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
-    My experiences include standalone game development, game modding, and backend web development. Currently looking for Fall 2023 co-op work.`,
+    about: `I'm a Computer Science and Pure Mathematics double major at the University of Waterloo who codes and does more math than is probably healthy. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
+    My experiences include standalone game development, game modding, and backend web development. Outside of programming, I'm highly passionate about pure mathematics and I'm strongly considering pursuing graduate work in the future. I'm generally interested in all math I've seen thus far, but am especially interested in differential geometry and topology. In particular, my (limited) experience with geometric analysis has been very exciting!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -48,6 +48,11 @@ module.exports = {
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
+      {
+	name: 'Tactic Studios',
+	description: 'Game Programmer, Sep. 2023 - Present (Dec. 2023 Expected)',
+	link: 'https://tacticstudios.com',
+      },	    
       {
         name: 'Eden Industries',
         description: 'Game Programmer, May 2022 - Aug. 2022 & Jan. 2023 - Apr. 2023',
