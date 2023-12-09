@@ -30,11 +30,12 @@ and with additional entries that I have played but don't come close to being on 
 15. **Torment\: Tides of Numenera**  
 16. **S.T.A.L.K.E.R.\: Shadow of Chernobyl**
 17. **Call of Duty\: Modern Warfare 2**  
-18. **Vampire\: The Masquerade -- Bloodlines**  
-19. **Dragon Age\: Origins**  
-20. **Command \& Conquer 3\: Tiberium Wars**  
-21. **Wolfenstein II\: The New Colossus**  
-22. **Star Wars\: Knights of the Old Republic**  
-23. **Call of Duty\: Black Ops**  
-24. **Ace Combat 6\: Fires of Liberation**  
-25. **Command \& Conquer\: Renegade** (lol)
+18. **Vampire\: The Masquerade -- Bloodlines**
+19. **Sly 2\: Band of Thieves**
+20. **Dragon Age\: Origins**  
+21. **Command \& Conquer 3\: Tiberium Wars**  
+22. **Wolfenstein II\: The New Colossus**  
+23. **Star Wars\: Knights of the Old Republic**  
+24. **Call of Duty\: Black Ops**  
+25. **Ace Combat 6\: Fires of Liberation**  
+26. **Command \& Conquer\: Renegade** (lol)
