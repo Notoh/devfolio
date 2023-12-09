@@ -15,13 +15,14 @@ and with additional entries that I have played but don't come close to being on 
 
 1. **Disco Elysium**  
 2. **Planescape\: Torment**  
-3. (These two change in order all the time) **Batman\: Arkham City** and **Titanfall 2**
+3. (These next two change in order all the time) **Batman\: Arkham City**
+4. **Titanfall 2**
 5. **Cyberpunk 2077**  
 6. **Fallout\: New Vegas**
 7. **Mass Effect 3**  
 8. **Star Wars Knights of the Old Republic II\: The Sith Lords**  
 9. **Command \& Conquer\: Red Alert 2**  
-10. **The Elder Scrolls IV\: Oblivion**  
+10. (These next 6 flip flop repeatedly) **The Elder Scrolls IV\: Oblivion**  
 11. **Batman\: Arkham Knight**  
 12. **Wolfenstein\: The New Order**  
 13. **Mass Effect 2**  
@@ -36,4 +37,4 @@ and with additional entries that I have played but don't come close to being on 
 22. **Star Wars\: Knights of the Old Republic**  
 23. **Call of Duty\: Black Ops**  
 24. **Ace Combat 6\: Fires of Liberation**  
-25. **Command \& Conquer\: Renegade**
+25. **Command \& Conquer\: Renegade** (lol)
