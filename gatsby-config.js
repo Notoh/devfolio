@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Alex Pawelko`,
     // Description that goes under your name in main bio
-    description: `Computer Science and Pure Mathematics student focused on Game Dev living in Waterloo, Canada.`,
+    description: `Pure Mathematics and Computer Science student interested in differential geometry and game development living in Waterloo, Canada.`,
     // Optional: Twitter account handle
     author: `@n0toh`,
     // Optional: Github account URL
@@ -16,8 +16,8 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
     resume: `https://github.com/Notoh/devfolio/raw/master/AlexPawelko-Resume.pdf`,
     // Content of the About Me section
-    about: `I'm a Computer Science and Pure Mathematics double major at the University of Waterloo who does a lot of math and coding. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
-    My experiences include standalone game development, game modding, and backend web development. Outside of programming, I'm highly passionate about pure mathematics and I'm strongly considering pursuing graduate work in the future. I'm generally interested in all math I've seen thus far, but am especially interested in differential geometry and topology. In particular, my (limited) experience with geometric analysis has been very exciting!`,
+    about: `I'm a Pure Mathematics major and Computer Science minor (formerly double major) at the University of Waterloo who does a lot of math and coding. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
+    My professional experiences include standalone game development, game modding, and backend web development. Outside of programming, I'm highly passionate about pure mathematics and I'm strongly considering pursuing graduate work in the future. I'm generally interested in all math I've seen thus far, but am especially interested in differential geometry and topology. In particular, my (limited) experience with geometric analysis has been very exciting!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
