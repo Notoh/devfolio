@@ -50,7 +50,7 @@ module.exports = {
     experience: [
       {
 	name: 'Tactic Studios',
-	description: 'Game Programmer, Sep. 2023 - Present (Dec. 2023 Expected)',
+	description: 'Game Programmer, Sep. 2023 - Dec. 2023',
 	link: 'https://tacticstudios.com',
       },	    
       {
