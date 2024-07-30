@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Alex Pawelko`,
     // Description that goes under your name in main bio
-    description: `Pure Mathematics and Computer Science student interested in differential geometry and game development living in Waterloo, Canada.`,
+    description: `Pure Mathematics and Computer Science student interested in differential geometry (and lots of other things) living in Waterloo, Canada.`,
     // Optional: Twitter account handle
     author: `@n0toh`,
     // Optional: Github account URL
@@ -16,8 +16,8 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
     resume: `https://github.com/Notoh/devfolio/raw/master/AlexPawelko-Resume.pdf`,
     // Content of the About Me section
-    about: `I'm a Pure Mathematics major and Computer Science minor (formerly double major) at the University of Waterloo who does a lot of math and coding. I fell in love with programming when I was 11 through video games, and I haven't stopped from there.
-    My professional experiences include standalone game development, game modding, and backend web development. Outside of programming, I'm highly passionate about pure mathematics and I'm strongly considering pursuing graduate work in the future. I'm generally interested in all math I've seen thus far, but am especially interested in differential geometry and topology. In particular, my (limited) experience with geometric analysis has been very exciting!`,
+    about: `I'm a Pure Mathematics major and Computer Science minor (formerly double major) at the University of Waterloo who does a lot of math and coding. I fell in love with math and programming when I was 11 through video games.
+    My professional programming experiences include game development (both standalone and modding), desktop software, and backend web development. Outside of programming, I'm highly passionate about mathematics and I'm planning to pursue graduate work in the future. I'm generally interested in all math I've seen thus far, but am especially interested in differential geometry and topology. In particular, my experiences with geometric analysis and complex geometry have been very exciting!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -46,8 +46,18 @@ module.exports = {
         link: 'https://podcrash.com/play'
       },
     ],
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
+    // Optional: List your experience, they must have `name` and `description`. `link` is optional.	  
     experience: [
+      {
+	name: 'University of Waterloo, Department of Pure Mathematics',
+	description: 'Research Assistant (supervised by Prof. S. Karigiannis), May 2024 - Aug. 2024',
+	link: 'https://uwaterloo.ca/pure-mathematics',
+      },
+      {
+	name: 'Conrad Grebel University College',
+	description: 'Residence Don, Jan. 2024 - Apr. 2024',
+	link: 'https://uwaterloo.ca/grebel',
+      },
       {
 	name: 'Tactic Studios',
 	description: 'Game Programmer, Sep. 2023 - Dec. 2023',
@@ -79,7 +89,7 @@ module.exports = {
       {
         name: 'Languages',
         description:
-          'Java, C, C#, C++, TypeScript, JavaScript, GLSL, HLSL, Kotlin, Scala, Groovy, Python, x86 Assembly, LaTeX',
+          'Java, C, C#, C++, TypeScript, JavaScript, GLSL, HLSL, Kotlin, Scala, Groovy, Python, x86 Assembly, LaTeX, Maple, Matlab',
       },
       {
         name: 'Technologies',
@@ -87,9 +97,9 @@ module.exports = {
           'SQL, MongoDB, Docker',
       },
       {
-        name: 'Other Skills',
+        name: 'Other Programming Skills',
         description:
-          'Continuous Integration / Continuous Deployment, Agile, Computational Mathematics',
+          'Continuous Integration / Continuous Deployment, Agile, Computer Graphics',
       },
       {
         name: 'Hobbies',
