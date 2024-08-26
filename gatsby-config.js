@@ -99,12 +99,17 @@ module.exports = {
       {
         name: 'Other Programming Skills',
         description:
-          'Continuous Integration / Continuous Deployment, Agile, Computer Graphics',
+          'Continuous Integration & Continuous Deployment, Agile, Computer Graphics',
+      },
+      {
+	name: 'Certifications',
+	description:
+	  'Oracle Certified Professional - Java SE 8 Programmer II, Canadian Red Cross - First Aid & CPR/AED Level C',
       },
       {
         name: 'Hobbies',
         description:
-          'Chess, Game Modding, Guitar, Sound Engineering, Tabletop Gaming, Classic RPGs, Speedrunning (current world record holder in Command & Conquer: Renegade)'
+          'Game Modding, Chess, Sound Engineering, Tabletop Gaming, Classic RPGs, Speedrunning (current world record holder in Command & Conquer: Renegade)'
       },
     ],
   },
