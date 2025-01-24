@@ -16,10 +16,13 @@ module.exports = {
     resume: `https://github.com/Notoh/devfolio/raw/master/AlexPawelko-Resume.pdf`,
     // Content of the About Me section
     about: `Hi, I'm Alex (he/him), though I also go my old nickname Notoh (no-toe with less emphasis on the toe), and welcome to my page! Here you'll find my rather inactive blog (I'll write more one day...) and information about me. 
+    
     Broadly, I'm a Pure Mathematics major and Computer Science minor (formerly double major) at the University of Waterloo who does a lot of math and coding. 
+    
     I'm highly passionate about mathematics, and I'm planning to pursue graduate work in the future. I'm generally interested in all the math I've seen thus far, but I'm especially interested in differential geometry, where in particular my experiences with special holonomy, complex geometry, and gauge theory have been very exciting!
     In technical terms, I'm currently working on questions surrounding constructing analogues of prequantum line bundles over moduli spaces arising from special-holonomic geometric structures. I'll maybe write a blog post one day about this.
     Outside of geometry, I'm currently doing research in programming language theory in computer science, where my main focus has been applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
+    
     If any of these projects sound interesting and you'd like to talk about them, please send me an email! (firstname<dot>lastname<at>uwaterloo<dot>ca)
     Before my current mathematical journey took off, I was a professional programmer, mostly within game development, where I've been fortunate to work on many cool projects over the years. You'll find some of the personal ones below!
 
