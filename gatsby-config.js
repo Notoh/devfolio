@@ -9,15 +9,22 @@ module.exports = {
     // Description that goes under your name in main bio
     description: `Pure Mathematics and Computer Science student interested in differential geometry (and lots of other things) living in Waterloo, Canada.`,
     // Optional: Twitter account handle
-    author: `@n0toh`,
     // Optional: Github account URL
     github: `https://github.com/Notoh`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
     resume: `https://github.com/Notoh/devfolio/raw/master/AlexPawelko-Resume.pdf`,
     // Content of the About Me section
-    about: `I'm a Pure Mathematics major and Computer Science minor (formerly double major) at the University of Waterloo who does a lot of math and coding. I fell in love with math and programming when I was 11 through video games.
-    My professional programming experiences include game development (both standalone and modding), desktop software, and backend web development. Outside of programming, I'm highly passionate about mathematics and I'm planning to pursue graduate work in the future. I'm generally interested in all math I've seen thus far, but am especially interested in differential geometry and topology. In particular, my experiences with geometric analysis and complex geometry have been very exciting!`,
+    about: `Hi, I'm Alex (he/him), though I also go my old nickname Notoh (no-toe with less emphasis on the toe), and welcome to my page! Here you'll find my rather inactive blog (I'll write more one day...) and information about me. 
+    Broadly, I'm a Pure Mathematics major and Computer Science minor (formerly double major) at the University of Waterloo who does a lot of math and coding. 
+    I'm highly passionate about mathematics, and I'm planning to pursue graduate work in the future. I'm generally interested in all the math I've seen thus far, but I'm especially interested in differential geometry, where in particular my experiences with special holonomy, complex geometry, and gauge theory have been very exciting!
+    In technical terms, I'm currently working on questions surrounding constructing analogues of prequantum line bundles over moduli spaces arising from special-holonomic geometric structures. I'll maybe write a blog post one day about this.
+    Outside of geometry, I'm currently doing research in programming language theory in computer science, where my main focus has been applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
+    If any of these projects sound interesting and you'd like to talk about them, please send me an email! (firstname<dot>lastname<at>uwaterloo<dot>ca)
+    Before my current mathematical journey took off, I was a professional programmer, mostly within game development, where I've been fortunate to work on many cool projects over the years. You'll find some of the personal ones below!
+
+    In my free time, I spend a lot of time playing TTRPGs and video games, mostly cRPGs and singleplayer shooters. I also have taken many volunteer roles advocating for the undergraduate students of the University of Waterloo, both inside and outside of student government.
+    I'm particularly passionate about student disability rights, and ensuring that the University systematically takes student voices and stances seriously.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -48,6 +55,11 @@ module.exports = {
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.	  
     experience: [
+      {
+	name: 'University of Waterloo, School of Computer Science',
+	description: 'Research Fellow (supervised by Prof. Y. Zhang), Jan. 2025 - Apr. 2025',
+	link: 'https://uwaterloo.ca/cs'
+      },
       {
 	name: 'University of Waterloo, Department of Pure Mathematics',
 	description: 'Research Assistant (supervised by Prof. S. Karigiannis), May 2024 - Aug. 2024',
@@ -87,7 +99,7 @@ module.exports = {
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages',
+        name: 'Programming Languages',
         description:
           'Java, C, C#, C++, TypeScript, JavaScript, GLSL, HLSL, Kotlin, Scala, Groovy, Python, x86 Assembly, LaTeX, Maple, Matlab',
       },
@@ -97,19 +109,14 @@ module.exports = {
           'SQL, MongoDB, Docker',
       },
       {
-        name: 'Other Programming Skills',
-        description:
-          'Continuous Integration & Continuous Deployment, Agile, Computer Graphics',
-      },
-      {
 	name: 'Certifications',
 	description:
-	  'Oracle Certified Professional - Java SE 8 Programmer II, Canadian Red Cross - First Aid & CPR/AED Level C',
+	  'Canadian Red Cross - First Aid & CPR/AED Level C, Oracle Certified Professional - Java SE 8 Programmer II',
       },
       {
         name: 'Hobbies',
         description:
-          'Game Modding, Chess, Sound Engineering, Tabletop Gaming, Classic RPGs, Speedrunning (current world record holder in Command & Conquer: Renegade)'
+          'Game Modding, Chess, Tabletop Gaming, Classic RPGs, Speedrunning (current world record holder in Command & Conquer: Renegade)'
       },
     ],
   },
