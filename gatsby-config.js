@@ -116,11 +116,6 @@ module.exports = {
 	description:
 	  'Canadian Red Cross - First Aid & CPR/AED Level C, Oracle Certified Professional - Java SE 8 Programmer II',
       },
-      {
-        name: 'Hobbies',
-        description:
-          'Game Modding, Chess, Tabletop Gaming, Classic RPGs, Speedrunning (current world record holder in Command & Conquer: Renegade)'
-      },
     ],
   },
   plugins: [
