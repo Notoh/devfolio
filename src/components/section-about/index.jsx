@@ -4,9 +4,9 @@ import Section from '../section';
 
 const SectionAbout = ({ about }) => {
   return (
-    <Section title="About Me Test">
+    <Section title="About Me">
       <div className="mb-6">
-        <p>{about}</p>
+        <p style="white-space: pre-line">{about}</p>
       </div>
     </Section>
   );
