@@ -1,3 +1,5 @@
+const { list } = require("postcss");
+
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
@@ -21,7 +23,7 @@ module.exports = {
 
     When I'm not doing math, I'm probably playing TTRPGs and video games, mostly cRPGs and singleplayer shooters. Occasionally, I write about video games, with my focus typically on the art of narrative in games. I also speedrun games, particularly Command & Conquer: Renegade, where I am a former world record holder. 
     
-    I also have taken many volunteer roles advocating for the undergraduate students of the University of Waterloo, both inside and outside of student government. I'm particularly passionate about student disability rights, and ensuring that the University systematically takes student voices and stances seriously. If you are a Waterloo student and would like to talk (in particular, if you believe I can help you with something), please send me an email.
+    I have also taken many volunteer roles advocating for the undergraduate students of the University of Waterloo, both inside and outside of student government. I'm particularly passionate about student disability rights, and ensuring that the University systematically takes student voices and stances seriously. If you are a Waterloo student and would like to talk (in particular, if you believe I can help you with something), please send me an email.
     
     My website URL comes from my old nickname Notoh (pronounced No-toe, with less emphasis on the toe). My last name is spelled either Pawełko or Pawelko, pronounced "pa-vewl-ko" or the anglicized "pa-well-ko" (I am fine with both). If you'd like to reach out to me, my email is firstname<dot>lastname<at>uwaterloo<dot>ca (with a normal l in the address).`,
     
@@ -37,24 +39,114 @@ module.exports = {
     <strong>For mathematicians:</strong>
     I am interested in the study of special geometric structures within differential geometry and geometric analysis. I am fascinated with the entire field on the whole, though most of my work thus far has focused on manifolds with exceptional holonomy (G2 and Spin(7) manifolds). My current research is focused on trying to apply certain ideas from symplectic geometry (in particular, geometric quantization) to the setting of special holonomy, and lately has crossed paths with some very interesting gauge theory and geometric representation theory. 
 
-    Outside of geometry, I also have done some research in programming language theory in computer science, where my focus was applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
+    Outside of geometry, I have also done some research in programming language theory in computer science, where my focus was applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
     
-    Below, you can find links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors and idiosyncrasies.`,
+    Below, you can find links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors, idiosyncrasies, and missing citations.`,
     // Optional: List your talks, they must have `name` and `description`. `link` is optional.
     talks: [
       {
-        name: 'Notes on G2 Geometry (Graduate Student Seminar)',
-        description: 'A brief introduction to G2 geometry aimed at first year graduate students.',
-        link: '#'
+        name: 'Calibrated Geometry of a Strongly Nondegenerate Knot Space',
+        description: 'Notes for a board talk given September 18th, 2025 to Waterloo\'s Differential Geometry Working Seminar, based on my current research, J.-L. Brylinski\'s book "Loop Spaces, Characteristic Classes and Geometric Quantization", and Lee-Leung\'s paper "Higher dimensional knot spaces for manifolds with vector cross products". Despite the title, there is almost no calibrated geometry in this talk.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/knotspace2-talk.pdf'
+      },
+      {
+        name: 'Gerbes of Coassociative Submanifolds and the First Chern Class',
+        description: 'Notes for a board talk given August 14th, 2025 to Waterloo\'s Differential Geometry Working Seminar, based on G. Oliveira\'s paper "Gerbes on G2-manifolds", N. Hitchin\'s notes "Lectures on Special Lagrangian Submanifolds", and a small amount of my own work.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/gerbes-talk.pdf'
+      },
+      {
+        name: 'How Special is Curvature?',
+        description: 'Slides for an expository talk on holonomy given June 26th, 2025 to the Canadian Undergraduate Mathematics Conference 2025.',
+        link:'https://docs.google.com/presentation/d/1AnTFcxfiIz4Za2pPrdqs1oHfHYn7lySBoMTgEWwHeBs/edit?usp=sharing',
+      },
+      {
+        name: 'The Formal Kaehler Structure of the G2 Knot Space',
+        description: 'Notes for a board talk given May 22nd, 2025 to Waterloo\'s Differential Geometry Working Seminar, based on J.-L. Brylinski\'s book "Loop Spaces, Characteristic Classes and Geometric Quantization" and a small amount of my own work.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/knotspace-talk.pdf'
+      },
+      {
+        name: 'Differential Geometers Suck at Naming Things',
+        description: 'Slides for a humorous talk on differential geometry (and its notation) given March 7th, 2025 to Waterloo\'s Pure Math Club as part of their 24-hour Short Attention Span Math Seminar.',
+        link: 'https://docs.google.com/presentation/d/1_bVPLfICkSV4hiIGhRqIoBGQnZXc4aVMoI_M6tMMxdc/edit?usp=sharing'
+      },
+      {
+        name: 'Prequantum Line Bundles and Geometric Quantization',
+        description: 'Notes for a board talk given November 20th, 2024 to Waterloo\'s Differential Geometry Working Seminar, primarily based on the exposition in Casey Blacker\'s symplectic geometry notes.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/prequantum_line_bundles.pdf'
+      },
+      {
+        name: '2-Outta-3 Ain\'t Bad',
+        description: 'Notes for an expository board talk on U(n) and the linear algebra of Kaehler geometry aimed at undergrads given November 7th, 2025 to Waterloo\'s Pure Math Club as part of their Short Attention Span Math Seminar.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/2outta3_kahler_geometry_talk.pdf',
+      },
+      {
+        name: 'Strongly Nondegenerate Forms and their Associated Structures on Higher Knot Spaces',
+        description: 'Notes for a board talk given August 7th, 2024 to Waterloo\'s Differential Geometry Working Seminar, primarily based on Lee-Leung\'s paper "Higher dimensional knot spaces for manifolds with vector cross products".',
+        link: 'https://github.com/Notoh/devfolio/raw/master/leeleung-talk.pdf'
+      },
+      {
+        name: 'The Cross Product in R^7 (and Other Fun Adventures with Normed Division Algebras)',
+        description: 'Notes for an expository board talk on the quaternions and octonions given March 14th, 2024 to Waterloo\'s Pure Math Club as part of their Short Attention Span Math Seminar.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/DAs_talk.pdf'
       }
     ],
 
     // Optional: List your notes, they must have `name` and `description`. `link` is optional.
     notes: [
       {
-        name: 'Differential Geometry Reading Course Notes',
-        description: 'Notes from my reading course on G2 geometry and geometric quantization.',
-        link: '#'
+        name: 'CHEM 356: Quantum Chemistry (co-written with Kathryn Froese)',
+        description: 'Polished notes from a first course on quantum mechanics and chemical applications, aimed at chemistry students.',
+        link:'https://github.com/Notoh/devfolio/raw/master/CHEM%20356%20Notes.pdf'
+      },
+      {
+        name: 'PMATH 965: Harmonic Maps',
+        description: 'Nearly complete notes from a graduate course on harmonic maps in Riemannian geometry.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/harmonic-maps-notes.pdf',
+      },
+      {
+        name: 'PMATH 453: Functional Analysis',
+        description: 'Complete notes from a first course in functional analysis.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/453notes.pdf',
+      },
+      {
+        name: 'PMATH 450: Lebesgue Integration and Fourier Analysis',
+        description: 'Complete notes from a course in Hilbert space theory and a small amount of measure theory (unfortunately, very little Lebesgue integration or Fourier analyis was covered).',
+        link: 'https://github.com/Notoh/devfolio/raw/master/450notes.pdf',
+      },
+      {
+        name: 'PMATH 365: Differential Geometry',
+        description: 'Fairly finished notes from a first course on the differential geometry of curves and surfaces.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/365notes.pdf'
+      },
+      {
+        name: 'PMATH 352: Complex Analysis',
+        description: 'Work-in-progress notes from a first course on complex analysis.',
+        link:'https://github.com/Notoh/devfolio/raw/master/352notes.pdf',
+      },
+      {
+        name: 'PMATH 351: Real Analysis',
+        description: 'Fairly complete notes from a first course on real analysis in metric spaces.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/351notes.pdf',
+      },
+      {
+        name: 'PMATH 347: Groups and Rings',
+        description: 'Fairly complete notes from a course on group and ring theory, covering a standard first course in group theory, and some module and ring theory.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/347notes.pdf',
+      },
+      {
+        name: 'MATH 247: Calculus 3 (Advanced)',
+        description: 'Complete notes from a course on (rigorous) multivariable calculus and analysis.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/247notes.pdf',
+      },
+      {
+        name: 'MATH 245: Linear Algebra 2 (Advanced)',
+        description: 'Work-in-progress notes from a second course in linear algebra, covering inner product spaces and bilinear forms (and canonical forms to be added).',
+        link: 'https://github.com/Notoh/devfolio/raw/master/245notes.pdf',
+      },
+      {
+        name: 'MATH 239: Introduction to Combinatorics',
+        description: 'Complete notes from a first course in enumeration and graph theory.',
+        link: 'https://github.com/Notoh/devfolio/raw/master/239notes.pdf',
       }
     ],
 
