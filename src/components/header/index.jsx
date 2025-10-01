@@ -10,7 +10,7 @@ const classes = {
   image: 'rounded-full transform transition-all duration-150 hover:scale-105',
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
   name: 'text-5xl text-gray-900 font-bold leading-tight hover:text-black',
-  description: 'text-gray-600',
+  description: 'text-gray-700',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
   link:
@@ -21,7 +21,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
-  const resume = get(metadata, 'resume', false);
+  const cv = get(metadata, 'cv', false);
 
   return (
     <div className={classes.wrapper}>
@@ -60,10 +60,10 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-		  {resume && (
+		  {cv && (
             <li className={classes.item}>
-              <a className={classes.link} href={resume}>
-                Resumé
+              <a className={classes.link} href={cv}>
+                CV
               </a>
             </li>
           )}		  

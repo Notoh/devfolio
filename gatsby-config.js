@@ -7,59 +7,71 @@ module.exports = {
     // Main Site Title
     title: `Alex Pawelko`,
     // Description that goes under your name in main bio
-    description: `Pure Mathematics and Computer Science student interested in differential geometry (and lots of other things) living in Waterloo, Canada.`,
+    description: `Mathematics student and former video game programmer interested in differential geometry (and lots of other things) living in Waterloo, Canada.`,
     // Optional: Twitter account handle
     // Optional: Github account URL
     github: `https://github.com/Notoh`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
-    resume: `https://github.com/Notoh/devfolio/raw/master/AlexPawelko-Resume.pdf`,
+    cv: `https://github.com/Notoh/devfolio/raw/master/AlexPawelko-Resume.pdf`,
     // Content of the About Me section
-    about: `Hi, I'm Alex (he/him), though I also go my old nickname Notoh (no-toe with less emphasis on the toe), and welcome to my page! Here you'll find my rather inactive blog (I'll write more one day...) and information about me. 
-    
-    Broadly, I'm a Pure Mathematics major and Computer Science minor (formerly double major) at the University of Waterloo who does a lot of math and coding. 
-    
-    I'm highly passionate about mathematics, and I'm planning to pursue graduate work in the future. I'm generally interested in all the math I've seen thus far, but I'm especially interested in differential geometry, where in particular my experiences with special holonomy, complex geometry, and gauge theory have been very exciting!
-    In technical terms, I'm currently working on questions surrounding constructing analogues of prequantum line bundles over moduli spaces arising from special-holonomic geometric structures. I'll maybe write a blog post one day about this.
-    Outside of geometry, I'm currently doing research in programming language theory in computer science, where my main focus has been applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
-    
-    If any of these projects sound interesting and you'd like to talk about them, please send me an email! (firstname<dot>lastname<at>uwaterloo<dot>ca)
-    Before my current mathematical journey took off, I was a professional programmer, mostly within game development, where I've been fortunate to work on many cool projects over the years. You'll find some of the personal ones below!
+    about: `Hi, I'm Alex (he/him), and welcome to my page! Here you'll find my rather inactive blog and information about me and my work. 
 
-    In my free time, I spend a lot of time playing TTRPGs and video games, mostly cRPGs and singleplayer shooters. I also have taken many volunteer roles advocating for the undergraduate students of the University of Waterloo, both inside and outside of student government.
-    I'm particularly passionate about student disability rights, and ensuring that the University systematically takes student voices and stances seriously.`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
+    At a high level, I'm a Pure Mathematics major and Computer Science minor at the University of Waterloo, and a former professional programmer (in video games). My main mathematical interests are in differential geometry and geometric analysis, which you can read more about below. 
+
+    When I'm not doing math, I'm probably playing TTRPGs and video games, mostly cRPGs and singleplayer shooters. Occasionally, I write about video games, with my focus typically on the art of narrative in games. I also speedrun games, particularly Command & Conquer: Renegade, where I am a former world record holder. 
+    
+    I also have taken many volunteer roles advocating for the undergraduate students of the University of Waterloo, both inside and outside of student government. I'm particularly passionate about student disability rights, and ensuring that the University systematically takes student voices and stances seriously. If you are a Waterloo student and would like to talk (in particular, if you believe I can help you with something), please send me an email.
+    
+    My website URL comes from my old nickname Notoh (pronounced No-toe, with less emphasis on the toe). My last name is spelled either Pawełko or Pawelko, pronounced "pa-vewl-ko" or the anglicized "pa-well-ko" (I am fine with both). If you'd like to reach out to me, my email is firstname<dot>lastname<at>uwaterloo<dot>ca (with a normal l in the address).`,
+    
+    research: `My main mathematical interests are in the mathematical subject of differential geometry. Below you can find brief explanations of my interests aimed at both non-mathematical audiences and mathematical audiences. If you are interested in any of this and would like to talk, please send me an email!
+    
+    <strong>For everyone:</strong>
+    In one sentence, differential geometry is the use of (multivariable) calculus to study shapes. In order to use calculus effectively, the shapes under consideration need to be "smooth", without sharp edges, like the surface of a doughnut or a sphere. Differential geometry has many applications in physics (though I'm nowhere near a physicist), most notably in general relativity where it is used to describe the shape of spacetime.
+    
+    My particular interests lie in using differential geometry to study what are called "special geometric structures". A geometric structure is a way of measuring certain geometric information about a shape. For example, you might be able to measure distances and angles on a shape (this is a geometric structure called a metric), or you might be able to tell which way is "outward" on a shape (this is a geometric structure called an orientation). A given geometric structure may or may not exist on a given shape, for example, orientations don't exist on a shape like a Möbius strip, but it turns out that metrics exist on every shape. 
+    
+    As the name suggests, special geometric structures are those that are "special" in some way, often by being rare or having particularly neat properties. For example, given a metric and the ability to measure lengths and angles, one can measure how a shape bends and curves in space, and in an amazing turn of events, there are some exceptional seven and eight-dimensional shapes that curve like no others. Most of my research is about understanding these special shapes and the geometric structures they carry, and in particular trying to find new examples of them and figure out exactly what special properties they possess.
+
+    <strong>For mathematicians:</strong>
+    I am interested in the study of special geometric structures within differential geometry and geometric analysis. I am fascinated with the entire field on the whole, though most of my work thus far has focused on manifolds with exceptional holonomy (G2 and Spin(7) manifolds). My current research is focused on trying to apply certain ideas from symplectic geometry (in particular, geometric quantization) to the setting of special holonomy, and lately has crossed paths with some very interesting gauge theory and geometric representation theory. 
+
+    Outside of geometry, I also have done some research in programming language theory in computer science, where my focus was applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
+    
+    Below, you can find links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors and idiosyncrasies.`,
+    // Optional: List your talks, they must have `name` and `description`. `link` is optional.
+    talks: [
       {
-        name: 'Hagnus Miemann & badchessengine',
-        description:
-          'Two of the strongest chess playing programs in the world (ranked at ~200th and 432nd) in the world. badchessengine supports the Universal Chess Interface, whereas Hagnus Miemann features an interactive UI.',
-        link: 'https://linktr.ee/alexpawelkochess',
-      },
-      {
-        name: 'RankedCvC',
-        description:
-          'Ranking system (using Glicko2) for various competitive Minecraft gamemodes used to play dozens of games in multiple communities every day.',
-        link: 'https://github.com/notoh/elobot',
-      },
-      {
-        name: 'Squad Assault',
-        description:
-          'Counter Strike inspired gamemode within Minecraft, initially created for the Mineplex community.',
-        link: 'https://github.com/podcrash/squad-assault',
-      },
-      {
-        name: 'Podcrash Play (formerly Podcrash+ and BetterMP)',
-        description:
-          'Third-party Minecraft client initially designed for competitive play, featuring statistics tracking, optimizations, ' +
-          'dozens of quality of life mods, a referee system, and support for almost every Minecraft setup. Initially a personal project (known as BetterMP) until it was acquired by Podcrash after reaching over 250,000 downloads.',
-        link: 'https://podcrash.com/play'
-      },
+        name: 'Notes on G2 Geometry (Graduate Student Seminar)',
+        description: 'A brief introduction to G2 geometry aimed at first year graduate students.',
+        link: '#'
+      }
     ],
+
+    // Optional: List your notes, they must have `name` and `description`. `link` is optional.
+    notes: [
+      {
+        name: 'Differential Geometry Reading Course Notes',
+        description: 'Notes from my reading course on G2 geometry and geometric quantization.',
+        link: '#'
+      }
+    ],
+
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.	  
     experience: [
       {
-	name: 'University of Waterloo, School of Computer Science',
+        name: 'University of Waterloo, Department of Pure Mathematics',
+        description: 'Research Assistant (supervised by Profs. X. Chen and S. Karigiannis), Sept. 2025 - Present',
+        link: 'https://uwaterloo.ca/pure-mathematics'
+      },
+      {
+        name: 'University of Waterloo, Faculty of Mathematics',
+        description: 'Teaching Assistant (Calculus 1-3 for Mathematics and Science students), May 2025 - Aug. 2025',
+        link: 'https://uwaterloo.ca/math'
+      },
+      {
+	  name: 'University of Waterloo, School of Computer Science',
 	description: 'Research Fellow (supervised by Prof. Y. Zhang), Jan. 2025 - Apr. 2025',
 	link: 'https://uwaterloo.ca/cs'
       },
@@ -101,21 +113,6 @@ module.exports = {
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
-      {
-        name: 'Programming Languages',
-        description:
-          'Java, C, C#, C++, TypeScript, JavaScript, GLSL, HLSL, Kotlin, Scala, Groovy, Python, x86 Assembly, LaTeX, Maple, Matlab',
-      },
-      {
-        name: 'Technologies',
-        description: 'Git, OpenGL, Unity, Unreal, Gradle, Maven, Jenkins, Node.js, Express, Electron, Netty, Spring, JNI, Guice, Dagger2, JDBC, jOOQ, ' +
-          'SQL, MongoDB, Docker',
-      },
-      {
-	name: 'Certifications',
-	description:
-	  'Canadian Red Cross - First Aid & CPR/AED Level C, Oracle Certified Professional - Java SE 8 Programmer II',
-      },
     ],
   },
   plugins: [
