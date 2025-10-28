@@ -16,6 +16,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/alex-pawelko-88a1551b4/`,
     cv: `https://github.com/Notoh/devfolio/raw/master/AlexPawelko-Resume.pdf`,
+    researchStatement: `https://github.com/Notoh/devfolio/raw/master/Alex%20Pawelko%20Research%20Statement.pdf`,
     // Content of the About Me section
     about: `Hi, I'm Alex (he/him), and welcome to my page! Here you'll find my rather inactive blog and information about me and my work. 
 
@@ -27,21 +28,21 @@ module.exports = {
     
     My website URL comes from my old nickname Notoh (pronounced No-toe, with less emphasis on the toe). My last name is spelled either Pawełko or Pawelko, pronounced "pa-vewl-ko" or the anglicized "pa-well-ko" (I am fine with both). If you'd like to reach out to me, my email is firstname<dot>lastname<at>uwaterloo<dot>ca (with a normal l in the address).`,
     
-    research: `My main mathematical interests are in the mathematical subject of differential geometry. Below you can find brief explanations of my interests aimed at both non-mathematical audiences and mathematical audiences. If you are interested in any of this and would like to talk, please send me an email!
+    research: `My main mathematical interests are in the mathematical subject of differential geometry. Below you can find brief explanations of my interests aimed at both non-mathematical audiences and mathematical audiences. If you are interested in any of this and would like to talk, please send me an email! 
     
-    <strong>For everyone:</strong>
+    <b>For everyone:</b>
     In one sentence, differential geometry is the use of (multivariable) calculus to study shapes. In order to use calculus effectively, the shapes under consideration need to be "smooth", without sharp edges, like the surface of a doughnut or a sphere. Differential geometry has many applications in physics (though I'm nowhere near a physicist), most notably in general relativity where it is used to describe the shape of spacetime.
     
     My particular interests lie in using differential geometry to study what are called "special geometric structures". A geometric structure is a way of measuring certain geometric information about a shape. For example, you might be able to measure distances and angles on a shape (this is a geometric structure called a metric), or you might be able to tell which way is "outward" on a shape (this is a geometric structure called an orientation). A given geometric structure may or may not exist on a given shape, for example, orientations don't exist on a shape like a Möbius strip, but it turns out that metrics exist on every shape. 
     
     As the name suggests, special geometric structures are those that are "special" in some way, often by being rare or having particularly neat properties. For example, given a metric and the ability to measure lengths and angles, one can measure how a shape bends and curves in space, and in an amazing turn of events, there are some exceptional seven and eight-dimensional shapes that curve like no others. Most of my research is about understanding these special shapes and the geometric structures they carry, and in particular trying to find new examples of them and figure out exactly what special properties they possess.
 
-    <strong>For mathematicians:</strong>
-    I am interested in the study of special geometric structures within differential geometry and geometric analysis. I am fascinated with the entire field on the whole, though most of my work thus far has focused on manifolds with exceptional holonomy (G2 and Spin(7) manifolds). My current research is focused on trying to apply certain ideas from symplectic geometry (in particular, geometric quantization) to the setting of special holonomy, and lately has crossed paths with some very interesting gauge theory and geometric representation theory. 
+    <b>For mathematicians:</b>
+    I am interested in the study of special geometric structures within differential geometry and geometric analysis. I am fascinated with the entire field on the whole, though most of my work thus far has focused on manifolds with exceptional holonomy (G2 and Spin(7) manifolds). My current research is focused on trying to apply certain ideas from symplectic geometry (in particular, geometric quantization) to the setting of special holonomy, and lately has crossed paths with some very interesting gauge theory and geometric representation theory. You can also read my <u><a href="https://github.com/Notoh/devfolio/raw/master/Alex%20Pawelko%20Research%20Statement.pdf" target="_blank" rel="noopener noreferrer">research statement</a></u> for more details.
 
     Outside of geometry, I have also done some research in programming language theory in computer science, where my focus was applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
     
-    Below, you can find links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors, idiosyncrasies, and missing citations.`,
+    Below, you can find links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors, idiosyncrasies, and missing citations. Any errors are, of course, my own. Please send me an email if you have any corrections or confusions.`,
     // Optional: List your talks, they must have `name` and `description`. `link` is optional.
     talks: [
       {
@@ -110,7 +111,7 @@ module.exports = {
       },
       {
         name: 'PMATH 450: Lebesgue Integration and Fourier Analysis',
-        description: 'Complete notes from a course in Hilbert space theory and a small amount of measure theory (unfortunately, very little Lebesgue integration or Fourier analyis was covered).',
+        description: 'Complete notes from a course in Hilbert space theory and a small amount of measure theory (unfortunately, very little Lebesgue integration or Fourier analysis was covered).',
         link: 'https://github.com/Notoh/devfolio/raw/master/450notes.pdf',
       },
       {
