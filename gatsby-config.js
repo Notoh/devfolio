@@ -20,7 +20,7 @@ module.exports = {
     // Content of the About Me section
     about: `Hi, I'm Alex (he/him), and welcome to my page! Here you'll find my rather inactive blog and information about me and my work. 
 
-	Starting in Fall 2026, I will be a PhD student in Mathematics at University College London under the supervision of <u><a href="https://www.homepages.ucl.ac.uk/~ucahoan" target="_blank" rel="noopener noreferrer">Aleksander Doan</a></u>. My main mathematical interests are in differential geometry, specifically at the intersection of gauge theory, calibrated geometry, and special holonomy. I received my BMath in Pure Mathematics at the University of Waterloo in 2026, where I was mentored by Professors Spiro Karigiannis and Xuemiao Chen.
+	Starting in Fall 2026, I will be a PhD student in Mathematics at University College London under the supervision of Aleksander Doan. My main mathematical interests are in differential geometry, specifically at the intersection of gauge theory, calibrated geometry, and special holonomy. I received my BMath in Pure Mathematics at the University of Waterloo in 2026, where I was mentored by Professors Spiro Karigiannis and Xuemiao Chen.
 
     When I'm not doing math, I'm probably playing TTRPGs and video games, mostly cRPGs and singleplayer shooters. Occasionally, I write about video games, with my focus typically on the art of narrative in games. I also speedrun games, particularly Command & Conquer: Renegade, where I am a former world record holder. 
         
