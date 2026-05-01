@@ -20,12 +20,10 @@ module.exports = {
     // Content of the About Me section
     about: `Hi, I'm Alex (he/him), and welcome to my page! Here you'll find my rather inactive blog and information about me and my work. 
 
-    At a high level, I'm a Pure Mathematics major and Computer Science minor at the University of Waterloo, and a former professional programmer (in video games). My main mathematical interests are in differential geometry and geometric analysis, which you can read more about below. 
+	Starting in Fall 2026, I will be a PhD student in Mathematics at University College London under the supervision of <a href="https://www.homepages.ucl.ac.uk/~ucahoan/">Aleksander Doan</a>. My main mathematical interests are in differential geometry, specifically at the intersection of gauge theory, calibrated geometry, and special holonomy. I received my BMath in Pure Mathematics at the University of Waterloo in 2026, where I was mentored by Professors Spiro Karigiannis and Xuemiao Chen.
 
     When I'm not doing math, I'm probably playing TTRPGs and video games, mostly cRPGs and singleplayer shooters. Occasionally, I write about video games, with my focus typically on the art of narrative in games. I also speedrun games, particularly Command & Conquer: Renegade, where I am a former world record holder. 
-    
-    I have also taken many volunteer roles advocating for the undergraduate students of the University of Waterloo, both inside and outside of student government. I'm particularly passionate about student disability rights, and ensuring that the University systematically takes student voices and stances seriously. If you are a Waterloo student and would like to talk (in particular, if you believe I can help you with something), please send me an email.
-    
+        
     My website URL comes from my old nickname Notoh (pronounced No-toe, with less emphasis on the toe). My last name is spelled either Pawełko or Pawelko, pronounced "pa-vewl-ko" or the anglicized "pa-well-ko" (I am fine with both). If you'd like to reach out to me, my email is firstname<dot>lastname<at>uwaterloo<dot>ca (with a normal l in the address).`,
     
     research: `My main mathematical interests are in the mathematical subject of differential geometry. Below you can find brief explanations of my interests aimed at both non-mathematical audiences and mathematical audiences. If you are interested in any of this and would like to talk, please send me an email! 
@@ -37,12 +35,12 @@ module.exports = {
     
     As the name suggests, special geometric structures are those that are "special" in some way, often by being rare or having particularly neat properties. For example, given a metric and the ability to measure lengths and angles, one can measure how a shape bends and curves in space, and in an amazing turn of events, there are some exceptional seven and eight-dimensional shapes that curve like no others. Most of my research is about understanding these special shapes and the geometric structures they carry, and in particular trying to find new examples of them and figure out exactly what special properties they possess.
 
-    <b>For mathematicians:</b>
-    I am interested in the study of special geometric structures within differential geometry and geometric analysis. I am fascinated with the entire field on the whole, though most of my work thus far has focused on manifolds with exceptional holonomy (G2 and Spin(7) manifolds). My current research is focused on trying to apply certain ideas from symplectic geometry (in particular, geometric quantization) to the setting of special holonomy, and lately has crossed paths with some very interesting gauge theory and geometric representation theory. You can also read my <u><a href="https://github.com/Notoh/devfolio/raw/master/Alex%20Pawelko%20Research%20Statement.pdf" target="_blank" rel="noopener noreferrer">research statement</a></u> for more details.
-
-    Outside of geometry, I have also done some research in programming language theory in computer science, where my focus was applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
+    <b>For mathematicians:</b>	
+    I am interested in the study of special geometric structures within differential geometry and geometric analysis. I am fascinated with the entire field on the whole, though most of my work thus far has focused on manifolds with exceptional holonomy (G2 and Spin(7) manifolds). My current research is focused on higher dimensional gauge theories and their associated enumerative invariants as arise in calibrated geometry and special holonomy. I also frequently think about geometric quantization and its analogues within special holonomy.
+	
+    Outside of geometry, in my undergrad I did some research with Yizhou Zhang at Waterloo in programming language theory in computer science, where my focus was applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
     
-    Below, you can find links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors, idiosyncrasies, and missing citations. Any errors are, of course, my own. Please send me an email if you have any corrections or confusions.`,
+    Below, you can find a (rather out-of-date) list of links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors, idiosyncrasies, and missing citations. Any errors are, of course, my own. Please send me an email if you have any corrections or confusions.`,
     // Optional: List your talks, they must have `name` and `description`. `link` is optional.
     talks: [
       {
@@ -153,6 +151,11 @@ module.exports = {
 
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.	  
     experience: [
+	{
+        name: 'University of Waterloo, Faculty of Mathematics',
+        description: 'Teaching Assistant (Calculus 1-3 for Mathematics and Science students), Jan. 2026 - Apr. 2026',
+        link: 'https://uwaterloo.ca/math'
+      },
       {
         name: 'University of Waterloo, Department of Pure Mathematics',
         description: 'Research Assistant (supervised by Profs. X. Chen and S. Karigiannis), Sept. 2025 - Present',
