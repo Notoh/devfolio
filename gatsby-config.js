@@ -9,7 +9,7 @@ module.exports = {
     // Main Site Title
     title: `Alex Pawelko`,
     // Description that goes under your name in main bio
-    description: `Mathematics student and former video game programmer interested in differential geometry (and lots of other things) living in Waterloo, Canada.`,
+    description: `Mathematics student and former video game programmer interested in differential geometry (and lots of other things) living in London, England.`,
     // Optional: Twitter account handle
     // Optional: Github account URL
     github: `https://github.com/Notoh`,
@@ -20,11 +20,11 @@ module.exports = {
     // Content of the About Me section
     about: `Hi, I'm Alex (he/him), and welcome to my page! Here you'll find my rather inactive blog and information about me and my work. 
 
-	Starting in Fall 2026, I will be a PhD student in Mathematics at University College London under the supervision of Aleksander Doan. My main mathematical interests are in differential geometry, specifically at the intersection of gauge theory, calibrated geometry, and special holonomy. I received my BMath in Pure Mathematics at the University of Waterloo in 2026, where I was mentored by Professors Spiro Karigiannis and Xuemiao Chen.
+	I am a first year PhD student in Mathematics at University College London under the supervision of Aleksander Doan. My main mathematical interests are in differential geometry, specifically at the intersection of gauge theory, calibrated geometry, and special holonomy. I received my BMath in Pure Mathematics at the University of Waterloo in 2026, where I was mentored by Professors Spiro Karigiannis and Xuemiao Chen. In a past life, I was a professional video game programmer, primarily in engine programming, graphics, and interfaces. 
 
     When I'm not doing math, I'm probably playing TTRPGs and video games, mostly cRPGs and singleplayer shooters. Occasionally, I write about video games, with my focus typically on the art of narrative in games. I also speedrun games, particularly Command & Conquer: Renegade, where I am a former world record holder. 
         
-    My website URL comes from my old nickname Notoh (pronounced No-toe, with less emphasis on the toe). My last name is spelled either Pawełko or Pawelko, pronounced "pa-vewl-ko" or the anglicized "pa-well-ko" (I am fine with both). If you'd like to reach out to me, my email is firstname<dot>lastname<at>uwaterloo<dot>ca (with a normal l in the address).`,
+    My website URL comes from my old nickname Notoh (pronounced No-toe, with less emphasis on the toe). Socially, I use my married name Knetsch (silent K), but still use Pawelko professionally, which is pronounced "pa-vewl-ko" or the anglicized "pa-well-ko" (I am fine with both). If you'd like to reach out to me, my email is alex<dot>pawelko<dot>26@ucl.ac.uk. Originally, I'm from Calgary, Canada.`,
     
     research: `My main mathematical interests are in the mathematical subject of differential geometry. Below you can find brief explanations of my interests aimed at both non-mathematical audiences and mathematical audiences. If you are interested in any of this and would like to talk, please send me an email! 
     
@@ -36,16 +36,40 @@ module.exports = {
     As the name suggests, special geometric structures are those that are "special" in some way, often by being rare or having particularly neat properties. For example, given a metric and the ability to measure lengths and angles, one can measure how a shape bends and curves in space, and in an amazing turn of events, there are some exceptional seven and eight-dimensional shapes that curve like no others. Most of my research is about understanding these special shapes and the geometric structures they carry, and in particular trying to find new examples of them and figure out exactly what special properties they possess.
 
     <b>For mathematicians:</b>	
-    I am interested in the study of special geometric structures within differential geometry and geometric analysis. I am fascinated with the entire field on the whole, though most of my work thus far has focused on manifolds with exceptional holonomy (G2 and Spin(7) manifolds). My current research is focused on higher dimensional gauge theories and their associated enumerative invariants as arise in calibrated geometry and special holonomy. I also frequently think about geometric quantization and its analogues within special holonomy.
-	
+    I am interested in the study of special geometric structures within differential geometry and geometric analysis. I am fascinated with the entire field on the whole, though most of my work thus far has focused on manifolds with exceptional holonomy (torsion-free G2 and Spin(7) manifolds) and their torsion counterparts. Within these exceptional geometries, I am extremely interested in any kind of problem having to do with moduli, deformations, or invariants of their geometric structures. As such, my main focus right now is on higher dimensional gauge theories and their associated enumerative invariants arising from calibrated geometry. I also frequently think about geometric quantization and its (loose) analogues within special holonomy.
+		
     Outside of geometry, in my undergrad I did some research with Yizhou Zhang at Waterloo in programming language theory in computer science, where my focus was applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
     
     Below, you can find a (rather out-of-date) list of links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors, idiosyncrasies, and missing citations. Any errors are, of course, my own. Please send me an email if you have any corrections or confusions.`,
     // Optional: List your talks, they must have `name` and `description`. `link` is optional.
     talks: [
+		{
+			name: 'Wild Speculation on Homotopy Invariants of G2 Structures',
+			description: 'A talk given August 5th, 2026 to Waterloo\'s Differential Geometry Working Seminar on upcoming joint work on homotopy invariants of G2-structures.',
+		},
+		{
+			name: 'Adiabatic Limits of Coassociative Fibrations I & II',
+			description: 'A pair of talks given June 17th, 2026 and August 12th, 2026 to Waterloo\'s Differential Geometry Working Seminar on Donaldson\'s paper "Adiabatic Limits of Coassociative Kovalev-Lefschetz Fibrations.' 
+		},
+		{
+			name: 'What\'s up with the 7-dimensional cross product?',
+			description: 'An expository talk on G2 geometry and joint work of mine with Spiro Karigiannis for undergraduates given June 25th, 2026 at the Canadian Undergraduate Mathematics Conference, 2026.'
+		},
+		{
+			name: 'Morse Theory via Harmonic Oscillators',
+			description: 'A talk given April 16th, 2026 to Waterloo\'s Differential Geometry Working Seminar on Witten\'s approach to Morse theory, primarily based on Zhang\'s "Lectures on Chern-Weil Theory and Witten Deformations".'
+		},
+	  {
+		  name: 'Riemannian Geometry of Knot Spaces',
+		  description: 'A talk given December 11th, 2025 to Waterloo\'s Differential Geometry Working Seminar, discussing joint work with Spiro Karigiannis.'
+		},
+		{
+			name: 'Let\'s Prove the Poincaré Conjecture',
+			description: 'An expository talk for undergraduates given March 18th, 2026 to Waterloo\'s Pure Math Club explaining the idea of Ricci flow and Hamilton\'s proof of the Poincar\'e conjecture for positive Ricci curvature.'
+		},
       {
         name: 'Calibrated Geometry of a Strongly Nondegenerate Knot Space',
-        description: 'Notes for a board talk given September 18th, 2025 to Waterloo\'s Differential Geometry Working Seminar, based on my current research, J.-L. Brylinski\'s book "Loop Spaces, Characteristic Classes and Geometric Quantization", and Lee-Leung\'s paper "Higher dimensional knot spaces for manifolds with vector cross products". Despite the title, there is almost no calibrated geometry in this talk.',
+        description: 'Notes for a board talk given September 18th, 2025 to Waterloo\'s Differential Geometry Working Seminar, based on my research, J.-L. Brylinski\'s book "Loop Spaces, Characteristic Classes and Geometric Quantization", and Lee-Leung\'s paper "Higher dimensional knot spaces for manifolds with vector cross products". Despite the title, there is almost no calibrated geometry in this talk.',
         link: 'https://github.com/Notoh/devfolio/raw/master/knotspace2-talk.pdf'
       },
       {
