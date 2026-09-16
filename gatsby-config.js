@@ -20,7 +20,7 @@ module.exports = {
     // Content of the About Me section
     about: `Hi, I'm Alex (he/him), and welcome to my page! Here you'll find my rather inactive blog and information about me and my work. 
 
-	I am a first year PhD student in Mathematics at University College London under the supervision of Aleksander Doan. My main mathematical interests are in differential geometry, specifically at the intersection of gauge theory, calibrated geometry, and special holonomy. I received my BMath in Pure Mathematics at the University of Waterloo in 2026, where I was mentored by Professors Spiro Karigiannis and Xuemiao Chen. In a past life, I was a professional video game programmer, primarily in engine programming, graphics, and interfaces. 
+	I am a first year PhD student in Mathematics at University College London under the supervision of Aleksander Doan. My main mathematical interests are in differential geometry, specifically at the intersection of gauge theory, calibrated geometry, and special holonomy. I received my BMath in Pure Mathematics at the University of Waterloo in 2026, where I was mentored by Professors Spiro Karigiannis and Xuemiao Chen. Before math, I was a professional video game programmer, primarily in engine programming, graphics, and interfaces. 
 
     When I'm not doing math, I'm probably playing TTRPGs and video games, mostly cRPGs and singleplayer shooters. Occasionally, I write about video games, with my focus typically on the art of narrative in games. I also speedrun games, particularly Command & Conquer: Renegade, where I am a former world record holder. 
         
@@ -40,7 +40,7 @@ module.exports = {
 		
     Outside of geometry, in my undergrad I did some research with Yizhou Zhang at Waterloo in programming language theory in computer science, where my focus was applying mathematical ideas (measure-theoretic probability theory, categorical logic) and computer formalization to probabilistic programming languages.
     
-    Below, you can find a (rather out-of-date) list of links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors, idiosyncrasies, and missing citations. Any errors are, of course, my own. Please send me an email if you have any corrections or confusions.`,
+    Below, you can find a (possibly out-of-date) list of links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors, idiosyncrasies, and missing citations. Any errors are, of course, my own. Please send me an email if you have any corrections or confusions.`,
     // Optional: List your talks, they must have `name` and `description`. `link` is optional.
     talks: [
 		{
