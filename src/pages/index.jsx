@@ -45,7 +45,6 @@ export const pageQuery = graphql`
         github
         linkedin
         cv
-        researchStatement
         notes {
           name
           description
