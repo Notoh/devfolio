@@ -4,6 +4,12 @@ date: '2024-10-21T12:00:00.00Z'
 description: 'The Story of Me and Why I Hope to Be'
 ---
 
+**Author's Note (2026)**
+
+The essay you're about to read was written by me in Fall 2024 on my certain motivation to study mathematics in an otherwise uncertain life, originally published in the University of Waterloo student newspaper mathNEWS, where it won a prize. There are parts of this that have changed over the years, but I think it's a relevant insight into who I was then and who I am now, and it's also been cited to me by others as their favourite piece of my writing, so I'm leaving it up for the foreseeable future. 
+
+_________________
+
 It was February 2022. I had just decided that I actually, genuinely, wanted to become a mathematician. To seal the deal and force myself to follow through on my dreams, I filled out the form to transfer from Software Engineering to Pure Math, and the rest was going to be history. That evening, I was telling a family friend about my decision, and I received a question I thought I had an answer for:
 
 "So why a mathematician? Isn't being a programmer much more useful and relevant?"
