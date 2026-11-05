@@ -26,7 +26,7 @@ module.exports = {
         
     My website URL comes from my old nickname Notoh (pronounced No-toe, with less emphasis on the toe). Socially, I use my married name Knetsch (silent K), but still use Pawelko professionally, which is pronounced "pa-vewl-ko" or the anglicized "pa-well-ko" (I am fine with both). If you'd like to reach out to me, my email is alex<dot>pawelko<dot>26@ucl.ac.uk. Originally, I'm from Calgary, Canada.`,
     
-    research: `My main mathematical interests are in the mathematical subject of differential geometry. Below you can find brief explanations of my interests aimed at both non-mathematical audiences and mathematical audiences. If you are interested in any of this and would like to talk, please send me an email! 
+    research: `My main mathematical interests are in the subject of differential geometry. Below you can find brief explanations of my interests aimed at both non-mathematical audiences and mathematical audiences. If you are interested in any of this and would like to talk, please send me an email! 
     
     <b>For everyone:</b>
     In one sentence, differential geometry is the use of (multivariable) calculus to study shapes. In order to use calculus effectively, the shapes under consideration need to be "smooth", without sharp edges, like the surface of a doughnut or a sphere. Differential geometry has many applications in physics (though I'm nowhere near a physicist), most notably in general relativity where it is used to describe the shape of spacetime.
@@ -43,6 +43,10 @@ module.exports = {
     Below, you can find a (possibly out-of-date) list of links to various talk and class notes of my mine (click the names as links), though they certainly contain numerous errors, idiosyncrasies, and missing citations. Any errors are, of course, my own. Please send me an email if you have any corrections or confusions.`,
     // Optional: List your talks, they must have `name` and `description`. `link` is optional.
     talks: [
+		{
+			name: 'Cross Products Along Knots',
+			description: 'A talk given November 3rd, 2026 to the King\'s College/University College London Junior Geometry seminar on upcoming joint work on the knot spaces of G_2 manifolds.',
+		},
 		{
 			name: 'Wild Speculation on Homotopy Invariants of G2 Structures',
 			description: 'A talk given August 5th, 2026 to Waterloo\'s Differential Geometry Working Seminar on upcoming joint work on homotopy invariants of G2-structures.',
